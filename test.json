@@ -1,0 +1,32 @@
+{
+  "data" : {
+    "type" : "account",
+    "attributes" : {
+      "account-type" : "custodial",
+      "name" : "John Doe's Account",
+      "authorized-signature" : "John James Doe",
+      "owner" : {
+        "contact-type" : "natural_person",
+        "name" : "John Doe",
+        "email" : "johndoe@gmail.com",
+        "date-of-birth" : "1980-06-09",
+        "sex" : "male",
+        "tax-id-number" : "123123123",
+        "tax-country" : "US",
+        "primary-phone-number" : {
+          "country" : "US",
+          "number" : "7026912020",
+          "sms" : true
+        },
+        "primary-address" : {
+          "street-1" : "330 S. Rampart",
+          "street-2" : "Apt 260",
+          "postal-code" : "89145",
+          "city" : "Las Vegas",
+          "region" : "NV",
+          "country" : "US"
+        }
+      }
+    }
+  }
+}

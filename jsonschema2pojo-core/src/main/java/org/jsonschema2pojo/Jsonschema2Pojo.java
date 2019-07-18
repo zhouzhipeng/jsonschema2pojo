@@ -29,6 +29,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
+import com.sun.codemodel.JPackage;
 import org.apache.commons.io.FilenameUtils;
 import org.jsonschema2pojo.exception.GenerationException;
 import org.jsonschema2pojo.rules.RuleFactory;
@@ -77,12 +78,19 @@ public class Jsonschema2Pojo {
                 mapper.generate(codeModel, getNodeName(source, config), defaultString(config.getTargetPackage()), source);
             }
         }
+        
+        
+        //todo: 生成内部类,改写codemodel
+        JPackage thePackage = codeModel.packages().next();
+        
+
 
         if (config.getTargetDirectory().exists() || config.getTargetDirectory().mkdirs()) {
             if (config.getTargetLanguage() == Language.SCALA) {
-                CodeWriter sourcesWriter = new ScalaFileCodeWriter(config.getTargetDirectory(), config.getOutputEncoding());
-                CodeWriter resourcesWriter = new FileCodeWriterWithEncoding(config.getTargetDirectory(), config.getOutputEncoding());
-                codeModel.build(sourcesWriter, resourcesWriter);
+//                CodeWriter sourcesWriter = new ScalaFileCodeWriter(config.getTargetDirectory(), config.getOutputEncoding());
+//                CodeWriter resourcesWriter = new FileCodeWriterWithEncoding(config.getTargetDirectory(), config.getOutputEncoding());
+//                codeModel.build(sourcesWriter, resourcesWriter);
+                throw new RuntimeException("gen scala is not implemented!");
             } else {
                 CodeWriter sourcesWriter = new FileCodeWriterWithEncoding(config.getTargetDirectory(), config.getOutputEncoding());
                 CodeWriter resourcesWriter = new FileCodeWriterWithEncoding(config.getTargetDirectory(), config.getOutputEncoding());
