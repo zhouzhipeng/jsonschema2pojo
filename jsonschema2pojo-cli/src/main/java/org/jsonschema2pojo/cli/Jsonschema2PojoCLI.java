@@ -48,14 +48,15 @@ public final class Jsonschema2PojoCLI {
                 "--source-type", "json",
                 "--target" ,"/Users/zhouzhipeng/IdeaProjects/jsonschema2pojo/jsonschema2pojo-cli/src/test/java",
                 "--package","com.zhouzhipeng.test",
-                "--use-inner-class-builders",
-                "--remove-old-output",
+//                "--use-inner-class-builders",
+//                "--remove-old-output",
                 "--omit-hashcode-and-equals",
                 "--omit-tostring",
                 "--disable-setters",
                 "--disable-getters",
                 "--annotation-style","gson",
-                "--generate-builders"
+                "--generate-builders",
+                "--serializable",
         };
 
         Arguments arguments = new Arguments().parse(args);
