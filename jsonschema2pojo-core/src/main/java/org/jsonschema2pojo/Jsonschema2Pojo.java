@@ -78,18 +78,6 @@ public class Jsonschema2Pojo {
         }
         
         
-        //todo: 生成内部类,改写codemodel
-//        JPackage thePackage = codeModel.packages().next();
-
-        JDefinedClass jDefinedClass = codeModel._getClass("com.zhouzhipeng.test.Test");
-        try {
-            jDefinedClass._class(JMod.PUBLIC | JMod.STATIC,"InnerClass");
-
-        } catch (JClassAlreadyExistsException e) {
-            e.printStackTrace();
-        }
-
-
         if (config.getTargetDirectory().exists() || config.getTargetDirectory().mkdirs()) {
             if (config.getTargetLanguage() == Language.SCALA) {
 //                CodeWriter sourcesWriter = new ScalaFileCodeWriter(config.getTargetDirectory(), config.getOutputEncoding());
