@@ -8,8 +8,8 @@ public class Test {
 //                .withData(new CreateAccountRequest.Data.DataBuilder()
 //                        .withAttributes())
         CreateAccountRequest req = new CreateAccountRequest()
-                .withData(new CreateAccountRequest
-                        .Data()
+                .withData(new CreateAccountRequest.Data()
+                        .withType("account")
                         .withAttributes(new CreateAccountRequest
                                 .Attributes()
                                 .withAccountType("sdfsdf")));
