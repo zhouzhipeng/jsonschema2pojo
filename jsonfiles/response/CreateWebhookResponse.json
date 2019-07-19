@@ -1,0 +1,26 @@
+{
+  "data": {
+    "type": "webhook-configs",
+    "id": "d6831650-7f4c-4bfa-9884-226f520b8b38",
+    "attributes": {
+      "contact-email": null,
+      "created-at": "2018-12-07T07:50:42Z",
+      "enabled": true,
+      "failures": 0,
+      "shared-secret": "Rj1PhVeDY0OjAIcaM-zh8GEb",
+      "updated-at": "2018-12-07T07:50:42Z",
+      "url": "http://www.example1.com"
+    },
+    "links": {
+      "self": "/v2/webhook-configs/d6831650-7f4c-4bfa-9884-226f520b8b38"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+        }
+      }
+    }
+  },
+  "included": []
+}

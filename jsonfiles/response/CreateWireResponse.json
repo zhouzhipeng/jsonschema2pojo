@@ -1,0 +1,76 @@
+{
+  "data": {
+    "type": "funds-transfer-methods",
+    "id": "f85a464e-df65-4e23-a114-dcfff947b02b",
+    "attributes": {
+      "ach-check-type": null,
+      "bank-account-name": "John James Doe",
+      "bank-account-type": "checking",
+      "bank-name": null,
+      "check-payee": null,
+      "contact-email": "johndoe@gmail.com",
+      "contact-name": "John Doe",
+      "credit-card-name": null,
+      "credit-card-postal-code": null,
+      "credit-card-type": null,
+      "funds-transfer-type": "wire",
+      "inactive": false,
+      "intermediary-bank-name": null,
+      "intermediary-bank-reference": null,
+      "ip-address": null,
+      "last-4": "7890",
+      "routing-number": "123456789",
+      "swift-code": null
+    },
+    "links": {
+      "self": "/v2/funds-transfer-methods/f85a464e-df65-4e23-a114-dcfff947b02b"
+    },
+    "relationships": {
+      "aml-checks": {
+        "links": {
+          "related": "/v2/aml-checks?funds-transfer-method.id=f85a464e-df65-4e23-a114-dcfff947b02b"
+        }
+      },
+      "contributions": {
+        "links": {
+          "related": "/v2/contributions?funds-transfer-method.id=f85a464e-df65-4e23-a114-dcfff947b02b"
+        }
+      },
+      "disbursements": {
+        "links": {
+          "related": "/v2/disbursements?funds-transfer-method.id=f85a464e-df65-4e23-a114-dcfff947b02b"
+        }
+      },
+      "funds-transfers": {
+        "links": {
+          "related": "/v2/funds-transfers?funds-transfer-method.id=f85a464e-df65-4e23-a114-dcfff947b02b"
+        }
+      },
+      "bank": {
+        "links": {
+          "related": "/v2/funds-transfer-methods/f85a464e-df65-4e23-a114-dcfff947b02b/bank"
+        }
+      },
+      "contact": {
+        "links": {
+          "related": "/v2/contacts/"
+        }
+      },
+      "bank-address": {
+        "data": null
+      },
+      "beneficiary-address": {
+        "links": {
+          "related": "/v2/funds-transfer-methods/f85a464e-df65-4e23-a114-dcfff947b02b/beneficiary-address"
+        }
+      },
+      "intermediary-bank-address": {
+        "data": null
+      },
+      "mailing-address": {
+        "data": null
+      }
+    }
+  },
+  "included": []
+}

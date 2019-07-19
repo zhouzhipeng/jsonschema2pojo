@@ -1,0 +1,12 @@
+{
+  "data":{
+    "type":"disbursements",
+    "attributes":{
+      "account-id":"",
+      "amount":"100",
+      "description":"Sent to otc desk",
+      "reference":"12345",
+      "funds-transfer-method-id":""
+    }
+  }
+}

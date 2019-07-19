@@ -1,0 +1,11 @@
+{
+  "data" : {
+    "attributes" : {
+      "account_id" : "",
+      "contact-email": "example@domain.com",
+      "url": "http://www.example1.com",
+      "enabled": true
+    },
+    "type" : "webhook-configs"
+  }
+}

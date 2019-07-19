@@ -1,0 +1,11 @@
+{
+  "data" : {
+    "type" : "contributions",
+    "attributes" : {
+      "account-id" : "",
+      "contact-id" : "",
+      "funds-transfer-method-id" : "",
+      "amount" : "500"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "data": {
+    "type": "funds-transfer-methods",
+    "id": "11c54b85-0725-4d24-86cc-4492e7d19eae",
+    "attributes": {
+      "ach-check-type": "personal",
+      "bank-account-name": "John James Doe",
+      "bank-account-type": "checking",
+      "bank-name": null,
+      "check-payee": null,
+      "contact-email": "johndoe@gmail.com",
+      "contact-name": "John Doe",
+      "credit-card-name": null,
+      "credit-card-postal-code": null,
+      "credit-card-type": null,
+      "funds-transfer-type": "ach",
+      "inactive": false,
+      "intermediary-bank-name": null,
+      "intermediary-bank-reference": null,
+      "ip-address": "2001:db8:85a3::8a2e:370:7334",
+      "last-4": "7890",
+      "routing-number": "123456789",
+      "swift-code": null
+    },
+    "links": {
+      "self": "/v2/funds-transfer-methods/11c54b85-0725-4d24-86cc-4492e7d19eae"
+    },
+    "relationships": {
+      "contributions": {
+        "links": {
+          "related": "/v2/contributions?funds-transfer-method.id=11c54b85-0725-4d24-86cc-4492e7d19eae"
+        }
+      },
+      "disbursements": {
+        "links": {
+          "related": "/v2/disbursements?funds-transfer-method.id=11c54b85-0725-4d24-86cc-4492e7d19eae"
+        }
+      },
+      "funds-transfers": {
+        "links": {
+          "related": "/v2/funds-transfers?funds-transfer-method.id=11c54b85-0725-4d24-86cc-4492e7d19eae"
+        }
+      },
+      "contact": {
+        "links": {
+          "related": "/v2/contacts/"
+        }
+      }
+    }
+  },
+  "included": []
+}

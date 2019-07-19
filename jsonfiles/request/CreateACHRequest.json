@@ -1,0 +1,15 @@
+{
+  "data" : {
+    "type" : "funds-transfer-method",
+    "attributes" : {
+      "funds-transfer-type" : "ach",
+      "contact-id" : "",
+      "ach-check-type" : "business",
+      "bank-account-name" : "Small Blockchain Company Ltd",
+      "bank-account-type" : "checking",
+      "bank-account-number" : "1234567890",
+      "routing-number": "123456789",
+      "ip-address" : "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+    }
+  }
+}

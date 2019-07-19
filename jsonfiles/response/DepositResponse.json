@@ -1,0 +1,60 @@
+{
+  "data": {
+    "type": "contributions",
+    "id": "d65b0c50-1197-4a4f-86c1-f36c4a76dee7",
+    "attributes": {
+      "amount": 500,
+      "amount-expected": 500,
+      "contributor-email": "ceooffice@sb.io",
+      "contributor-name": "Small Blockchain Company",
+      "created-at": "2018-12-03T00:36:39Z",
+      "funds-transfer-details": null,
+      "funds-transfer-type": "ach",
+      "message": null,
+      "reference": null,
+      "special-instructions": null,
+      "special-type": null,
+      "status": "pending",
+      "payment-details": null,
+      "payment-type": "ach",
+      "reference-number": null,
+      "transaction-number": null
+    },
+    "links": {
+      "self": "/v2/contributions/d65b0c50-1197-4a4f-86c1-f36c4a76dee7"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+        }
+      },
+      "contact": {
+        "links": {
+          "related": "/v2/contacts?funds-transfer.id=0b14d56a-7397-459c-954c-c5fc57b451e3&one"
+        }
+      },
+      "contribution-drive": {
+        "links": {
+          "related": "/v2/contribution-drives/1a409e45-3564-4df1-9725-d23e0df232f9"
+        }
+      },
+      "funds-transfer": {
+        "links": {
+          "related": "/v2/funds-transfers/0b14d56a-7397-459c-954c-c5fc57b451e3"
+        }
+      },
+      "funds-transfer-method": {
+        "links": {
+          "related": "/v2/funds-transfer-methods?funds-transfer.id=0b14d56a-7397-459c-954c-c5fc57b451e3&one"
+        }
+      },
+      "payment-method": {
+        "links": {
+          "related": "/v2/payment-methods?funds-transfer.id=0b14d56a-7397-459c-954c-c5fc57b451e3&one"
+        }
+      }
+    }
+  },
+  "included": []
+}

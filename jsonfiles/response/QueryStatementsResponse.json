@@ -1,0 +1,592 @@
+{
+  "links": {
+    "self": "/v2/funds-transfers?",
+    "first": "/v2/funds-transfers?page%5Bnumber%5D=1&page%5Bsize%5D=25"
+  },
+  "meta": {
+    "page-count": 1,
+    "resource-count": 9
+  },
+  "data": [
+    {
+      "type": "funds-transfers",
+      "id": "2ae6843b-9d70-4645-b650-74f9a8ff125d",
+      "attributes": {
+        "amount": 1000,
+        "amount-expected": 1000,
+        "cancelled-at": null,
+        "clears-on": "2018-12-12",
+        "created-at": "2018-12-03T00:51:59Z",
+        "currency-type": "USD",
+        "funds-source-name": "Small Blockchain Company Ltd",
+        "funds-transfer-type": "ach",
+        "reference": null,
+        "reversal-details": null,
+        "settlement-details": "ACH pulled from bank account",
+        "special-instructions": null,
+        "special-type": null,
+        "status": "settled"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/2ae6843b-9d70-4645-b650-74f9a8ff125d"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=2ae6843b-9d70-4645-b650-74f9a8ff125d"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=2ae6843b-9d70-4645-b650-74f9a8ff125d&one"
+          }
+        },
+        "funds-transfer-method": {
+          "links": {
+            "related": "/v2/funds-transfer-methods/ddc25bb4-06c5-464f-99dd-5a8d5f757ec4"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "links": {
+            "related": "/v2/cash-transactions/31f267d5-80e3-4bc8-b893-5a4606e04715"
+          }
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "f2af06ff-4a56-4038-8b8a-7107d7369532",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": null,
+        "created-at": "2018-12-03T00:30:26Z",
+        "currency-type": "USD",
+        "funds-source-name": null,
+        "funds-transfer-type": "wire",
+        "reference": "CUST6AH",
+        "reversal-details": null,
+        "settlement-details": null,
+        "special-instructions": null,
+        "special-type": null,
+        "status": "pending"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/f2af06ff-4a56-4038-8b8a-7107d7369532"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=f2af06ff-4a56-4038-8b8a-7107d7369532"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=f2af06ff-4a56-4038-8b8a-7107d7369532&one"
+          }
+        },
+        "funds-transfer-method": {
+          "data": null
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "data": null
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "4a9ea354-d727-4d26-bcfa-ca47a83b05e1",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": null,
+        "created-at": "2018-12-03T00:35:56Z",
+        "currency-type": "USD",
+        "funds-source-name": "Small Blockchain Company Ltd",
+        "funds-transfer-type": "ach",
+        "reference": null,
+        "reversal-details": null,
+        "settlement-details": null,
+        "special-instructions": null,
+        "special-type": null,
+        "status": "pending"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/4a9ea354-d727-4d26-bcfa-ca47a83b05e1"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=4a9ea354-d727-4d26-bcfa-ca47a83b05e1"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=4a9ea354-d727-4d26-bcfa-ca47a83b05e1&one"
+          }
+        },
+        "funds-transfer-method": {
+          "links": {
+            "related": "/v2/funds-transfer-methods/ddc25bb4-06c5-464f-99dd-5a8d5f757ec4"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "data": null
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "0b14d56a-7397-459c-954c-c5fc57b451e3",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": null,
+        "created-at": "2018-12-03T00:36:39Z",
+        "currency-type": "USD",
+        "funds-source-name": "Small Blockchain Company Ltd",
+        "funds-transfer-type": "ach",
+        "reference": null,
+        "reversal-details": null,
+        "settlement-details": null,
+        "special-instructions": null,
+        "special-type": null,
+        "status": "pending"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/0b14d56a-7397-459c-954c-c5fc57b451e3"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=0b14d56a-7397-459c-954c-c5fc57b451e3"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=0b14d56a-7397-459c-954c-c5fc57b451e3&one"
+          }
+        },
+        "funds-transfer-method": {
+          "links": {
+            "related": "/v2/funds-transfer-methods/ddc25bb4-06c5-464f-99dd-5a8d5f757ec4"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "data": null
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "a8cfdd3f-02f3-4a11-98a9-55ea4d35a247",
+      "attributes": {
+        "amount": 1000,
+        "amount-expected": 1000,
+        "cancelled-at": null,
+        "clears-on": "2018-12-03",
+        "created-at": "2018-12-03T01:01:45Z",
+        "currency-type": "USD",
+        "funds-source-name": "Small Blockchain Company",
+        "funds-transfer-type": "wire",
+        "reference": "CUSGD97",
+        "reversal-details": null,
+        "settlement-details": "Wire received with reference: CUSGD97",
+        "special-instructions": null,
+        "special-type": null,
+        "status": "settled"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/a8cfdd3f-02f3-4a11-98a9-55ea4d35a247"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=a8cfdd3f-02f3-4a11-98a9-55ea4d35a247"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=a8cfdd3f-02f3-4a11-98a9-55ea4d35a247&one"
+          }
+        },
+        "funds-transfer-method": {
+          "data": null
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "links": {
+            "related": "/v2/cash-transactions/9f06b0c0-a181-42ca-9163-9c5975d25ce1"
+          }
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "aca9a5fa-1af5-4b38-aa86-23b3419910ff",
+      "attributes": {
+        "amount": 1200,
+        "amount-expected": 1000,
+        "cancelled-at": null,
+        "clears-on": "2018-12-03",
+        "created-at": "2018-12-03T01:28:58Z",
+        "currency-type": "USD",
+        "funds-source-name": "Small Blockchain Company",
+        "funds-transfer-type": "wire",
+        "reference": "CUSY6FR",
+        "reversal-details": null,
+        "settlement-details": "Reference # : CUSY6FR",
+        "special-instructions": null,
+        "special-type": null,
+        "status": "settled"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/aca9a5fa-1af5-4b38-aa86-23b3419910ff"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=aca9a5fa-1af5-4b38-aa86-23b3419910ff"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        },
+        "contact": {
+          "links": {
+            "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+          }
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=aca9a5fa-1af5-4b38-aa86-23b3419910ff&one"
+          }
+        },
+        "funds-transfer-method": {
+          "data": null
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "links": {
+            "related": "/v2/cash-transactions/cea57ae0-c041-48d2-b725-1dc3809bd967"
+          }
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "da6331d4-4f38-4eea-b97c-f539c10f9082",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": null,
+        "created-at": "2018-12-02T21:48:08Z",
+        "currency-type": "USD",
+        "funds-source-name": "John James Doe",
+        "funds-transfer-type": "ach",
+        "reference": null,
+        "reversal-details": null,
+        "settlement-details": null,
+        "special-instructions": null,
+        "special-type": null,
+        "status": "pending"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/da6331d4-4f38-4eea-b97c-f539c10f9082"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=da6331d4-4f38-4eea-b97c-f539c10f9082"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/a26a3ea4-886b-4071-87e5-45daca6daa84"
+          }
+        },
+        "contact": {
+          "data": null
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=da6331d4-4f38-4eea-b97c-f539c10f9082&one"
+          }
+        },
+        "funds-transfer-method": {
+          "links": {
+            "related": "/v2/funds-transfer-methods/9eca69b8-6f10-4dd0-b42e-48590201eeab"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "data": null
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "6ce8ef4e-4ba3-4691-9c93-5df86579232a",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": "2018-12-03",
+        "created-at": "2018-12-02T02:07:40Z",
+        "currency-type": "USD",
+        "funds-source-name": "John Doe",
+        "funds-transfer-type": "wire",
+        "reference": "CUSXCVZ",
+        "reversal-details": null,
+        "settlement-details": "Originator: John Doe, Reference #: CUSXCVZ",
+        "special-instructions": null,
+        "special-type": null,
+        "status": "settled"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/6ce8ef4e-4ba3-4691-9c93-5df86579232a"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=6ce8ef4e-4ba3-4691-9c93-5df86579232a"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/a26a3ea4-886b-4071-87e5-45daca6daa84"
+          }
+        },
+        "contact": {
+          "data": null
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=6ce8ef4e-4ba3-4691-9c93-5df86579232a&one"
+          }
+        },
+        "funds-transfer-method": {
+          "data": null
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "links": {
+            "related": "/v2/cash-transactions/eafc784b-2172-4143-8997-39e7827376a8"
+          }
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    },
+    {
+      "type": "funds-transfers",
+      "id": "c2af5472-b823-4a46-9935-b91ddd71bf3e",
+      "attributes": {
+        "amount": 500,
+        "amount-expected": 500,
+        "cancelled-at": null,
+        "clears-on": null,
+        "created-at": "2018-12-02T21:42:18Z",
+        "currency-type": "USD",
+        "funds-source-name": "John James Doe",
+        "funds-transfer-type": "ach",
+        "reference": null,
+        "reversal-details": null,
+        "settlement-details": null,
+        "special-instructions": null,
+        "special-type": null,
+        "status": "pending"
+      },
+      "links": {
+        "self": "/v2/funds-transfers/c2af5472-b823-4a46-9935-b91ddd71bf3e"
+      },
+      "relationships": {
+        "children": {
+          "links": {
+            "related": "/v2/funds-transfers?parent.id=c2af5472-b823-4a46-9935-b91ddd71bf3e"
+          }
+        },
+        "account": {
+          "links": {
+            "related": "/v2/accounts/a26a3ea4-886b-4071-87e5-45daca6daa84"
+          }
+        },
+        "contact": {
+          "data": null
+        },
+        "disbursement": {
+          "links": {
+            "related": "/v2/disbursements?funds-transfer.id=c2af5472-b823-4a46-9935-b91ddd71bf3e&one"
+          }
+        },
+        "funds-transfer-method": {
+          "links": {
+            "related": "/v2/funds-transfer-methods/11c54b85-0725-4d24-86cc-4492e7d19eae"
+          }
+        },
+        "parent": {
+          "data": null
+        },
+        "reversed-cash-transaction": {
+          "data": null
+        },
+        "settled-cash-transaction": {
+          "data": null
+        },
+        "shortage-from-child": {
+          "data": null
+        },
+        "surplus-to-child": {
+          "data": null
+        }
+      }
+    }
+  ],
+  "included": []
+}

@@ -1,0 +1,48 @@
+{
+  "data": {
+    "type": "disbursements",
+    "id": "64c9f44b-e7dc-4005-a10a-7f261310a170",
+    "attributes": {
+      "amount": 100,
+      "created-at": "2018-12-07T06:24:03Z",
+      "description": "Sent to otc desk",
+      "customer-reference": "12345",
+      "payment-details": null,
+      "reference-number": null,
+      "special-type": null,
+      "status": "pending",
+      "transaction-number": null
+    },
+    "links": {
+      "self": "/v2/disbursements/64c9f44b-e7dc-4005-a10a-7f261310a170"
+    },
+    "relationships": {
+      "account": {
+        "links": {
+          "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+        }
+      },
+      "contact": {
+        "links": {
+          "related": "/v2/contacts?funds-transfer.id=7eef4fe6-cef9-40f7-a3b0-c950003e79ac&one"
+        }
+      },
+      "funds-transfer": {
+        "links": {
+          "related": "/v2/funds-transfers/7eef4fe6-cef9-40f7-a3b0-c950003e79ac"
+        }
+      },
+      "funds-transfer-method": {
+        "links": {
+          "related": "/v2/funds-transfer-methods?funds-transfer.id=7eef4fe6-cef9-40f7-a3b0-c950003e79ac&one"
+        }
+      },
+      "payment-method": {
+        "links": {
+          "related": "/v2/payment-methods?funds-transfer.id=7eef4fe6-cef9-40f7-a3b0-c950003e79ac&one"
+        }
+      }
+    }
+  },
+  "included": []
+}
