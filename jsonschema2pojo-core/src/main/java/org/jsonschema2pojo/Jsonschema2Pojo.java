@@ -29,7 +29,7 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import com.sun.codemodel.JPackage;
+import com.sun.codemodel.*;
 import org.apache.commons.io.FilenameUtils;
 import org.jsonschema2pojo.exception.GenerationException;
 import org.jsonschema2pojo.rules.RuleFactory;
@@ -37,8 +37,6 @@ import org.jsonschema2pojo.util.NameHelper;
 import org.jsonschema2pojo.util.URLUtil;
 
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
-import com.sun.codemodel.CodeWriter;
-import com.sun.codemodel.JCodeModel;
 
 public class Jsonschema2Pojo {
     /**
@@ -81,8 +79,15 @@ public class Jsonschema2Pojo {
         
         
         //todo: 生成内部类,改写codemodel
-        JPackage thePackage = codeModel.packages().next();
-        
+//        JPackage thePackage = codeModel.packages().next();
+
+        JDefinedClass jDefinedClass = codeModel._getClass("com.zhouzhipeng.test.Test");
+        try {
+            jDefinedClass._class(JMod.PUBLIC | JMod.STATIC,"InnerClass");
+
+        } catch (JClassAlreadyExistsException e) {
+            e.printStackTrace();
+        }
 
 
         if (config.getTargetDirectory().exists() || config.getTargetDirectory().mkdirs()) {
