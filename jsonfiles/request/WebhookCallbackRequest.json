@@ -1,0 +1,8 @@
+{
+  "id":"22f5f119-0c65-4330-83db-4fd44e7b5fc6",
+  "account-id":"79c979e7-a352-4bbf-893a-f5f71d0e4e2c",
+  "action":"update",
+  "data":{"changes":["name","date-of-birth"]},
+  "resource-id":"95d6cf64-4709-4942-b861-4007cedfe5bb",
+  "resource-type":"contacts"
+}

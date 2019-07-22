@@ -4,6 +4,7 @@
       "account_id" : "",
       "contact-email": "example@domain.com",
       "url": "http://www.example1.com",
+      "shared-secret": "xxxxxxx",
       "enabled": true
     },
     "type" : "webhook-configs"

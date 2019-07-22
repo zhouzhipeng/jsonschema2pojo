@@ -1,0 +1,12 @@
+{
+  "id":"22f5f119-0c65-4330-83db-4fd44e7b5fc6",
+  "action":"update",
+  "data":{"changes":["name","date-of-birth"]},
+  "resource-id":"95d6cf64-4709-4942-b861-4007cedfe5bb",
+  "resource-type":"contacts",
+  "created-at": "2018-12-03T00:00:40Z",
+  "success": true,
+  "failures": 0,
+  "last-request-at": "2018-12-03T00:00:40Z",
+  "last-response-code": 200
+}
