@@ -1,0 +1,35 @@
+{
+  "links": {
+    "self": "/v2/account-cash-totals?account.id=0f89212d-1578-4e3e-a865-dc77a6f2a505",
+    "first": "/v2/account-cash-totals?account.id=0f89212d-1578-4e3e-a865-dc77a6f2a505&page%5Bnumber%5D=1&page%5Bsize%5D=25"
+  },
+  "meta": {
+    "page-count": 1,
+    "resource-count": 1
+  },
+  "data": [
+    {
+      "type": "account-cash-totals",
+      "id": "e8f9f56e-2cb8-480c-bb92-73afb14b3f39",
+      "attributes": {
+        "contingent-hold": 0.0,
+        "currency-type": "USD",
+        "disbursable": 5300.0,
+        "pending-transfer": 1000.0,
+        "settled": 6300.0,
+        "updated-at": "2019-02-08T03:06:05Z"
+      },
+      "links": {
+        "self": "/v2/account-cash-totals/e8f9f56e-2cb8-480c-bb92-73afb14b3f39"
+      },
+      "relationships": {
+        "account": {
+          "links": {
+            "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+          }
+        }
+      }
+    }
+  ],
+  "included": []
+}

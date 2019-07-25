@@ -1,0 +1,51 @@
+{
+  "data": {
+    "type": "refunds",
+    "id": "cb6b0572-d3bb-4ea3-a51b-799761ae4dd5",
+    "attributes": {
+      "amount": 1000,
+      "created-at": "2019-05-14T06:01:58Z",
+      "currency-type": "USD",
+      "memo": null,
+      "process-on": "2018-12-13",
+      "status": "pending"
+    },
+    "links": {
+      "self": "/v2/refunds/cb6b0572-d3bb-4ea3-a51b-799761ae4dd5"
+    },
+    "relationships": {
+      "funds-transfers-to-refund": {
+        "links": {
+          "related": "/v2/funds-transfers?refund.id=cb6b0572-d3bb-4ea3-a51b-799761ae4dd5"
+        }
+      },
+      "account": {
+        "links": {
+          "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+        }
+      },
+      "contact": {
+        "links": {
+          "related": "/v2/contacts/d31aafb2-cdc0-4167-894a-208cb9de01ba"
+        }
+      },
+      "currency": {
+        "links": {
+          "related": "/v2/currencies/USD"
+        }
+      },
+      "disbursement-authorization": {
+        "data": null
+      },
+      "funds-transfer": {
+        "data": null
+      },
+      "funds-transfer-method": {
+        "links": {
+          "related": "/v2/funds-transfer-methods/ddc25bb4-06c5-464f-99dd-5a8d5f757ec4"
+        }
+      }
+    }
+  },
+  "included": []
+}
