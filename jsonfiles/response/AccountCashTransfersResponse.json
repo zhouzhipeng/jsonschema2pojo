@@ -1,0 +1,35 @@
+{
+  "data": {
+    "type": "account-cash-transfers",
+    "id": "625f74f4-4803-43bd-b5f6-dea8d1c98d9f",
+    "attributes": {
+      "amount": 200.0,
+      "created-at": "2018-12-03T01:19:02Z",
+      "status": "pending",
+      "transfer-on": "2018-12-02",
+      "updated-at": "2018-12-03T01:19:02Z"
+    },
+    "links": {
+      "self": "/v2/account-cash-transfers/625f74f4-4803-43bd-b5f6-dea8d1c98d9f"
+    },
+    "relationships": {
+      "from-account": {
+        "links": {
+          "related": "/v2/accounts/0f89212d-1578-4e3e-a865-dc77a6f2a505"
+        }
+      },
+      "from-cash-transaction": {
+        "data": null
+      },
+      "to-account": {
+        "links": {
+          "related": "/v2/accounts/a26a3ea4-886b-4071-87e5-45daca6daa84"
+        }
+      },
+      "to-cash-transaction": {
+        "data": null
+      }
+    }
+  },
+  "included": []
+}

@@ -1,0 +1,10 @@
+{
+  "data":{
+    "type": "account_cash_transfers",
+    "attributes":{
+      "amount": 500.0,
+      "from_account_id":"",
+      "to_account_id": ""
+    }
+  }
+}
