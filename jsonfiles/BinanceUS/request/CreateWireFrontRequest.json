@@ -1,0 +1,17 @@
+{
+  "user_id": "123",
+  "data": {
+    "routingNumber":"12323232323",
+    "bankAccountNumber":"11111666666",
+    "address1": "",
+    "address2": "",
+    "city":"",
+    "state": "",
+    "zipCode": "",
+    "intermediaryBank": {
+      "routingNumber":"12323232323",
+      "bankAccountNumber":"11111666666",
+      "bankAddress": ""
+    }
+  }
+} 
