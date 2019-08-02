@@ -1,0 +1,45 @@
+{
+  "data": {
+    "type": "accounts",
+    "id": "2da13706-3e63-4d9a-b768-55765c6d5cb5",
+    "attributes": {
+      "allow-informational-contacts": false,
+      "created-at": "2018-12-07T06:02:35Z",
+      "name": "Big Blockchain International Ltd Account",
+      "number": "420011020891",
+      "review-cash-transfers": true,
+      "status": "incomplete"
+    },
+    "links": {
+      "self": "/v2/accounts/2da13706-3e63-4d9a-b768-55765c6d5cb5"
+    },
+    "relationships": {
+      "account-cash-totals": {
+        "links": {
+          "related": "/v2/account-cash-totals?account.id=2da13706-3e63-4d9a-b768-55765c6d5cb5"
+        }
+      },
+      "cash-transactions": {
+        "links": {
+          "related": "/v2/cash-transactions?account.id=2da13706-3e63-4d9a-b768-55765c6d5cb5"
+        }
+      },
+      "contacts": {
+        "links": {
+          "related": "/v2/contacts?account.id=2da13706-3e63-4d9a-b768-55765c6d5cb5"
+        }
+      },
+      "holdings": {
+        "links": {
+          "related": "/v2/holdings?account.id=2da13706-3e63-4d9a-b768-55765c6d5cb5"
+        }
+      },
+      "account-type": {
+        "links": {
+          "related": "/v2/account-types/custodial"
+        }
+      }
+    }
+  },
+  "included": []
+}

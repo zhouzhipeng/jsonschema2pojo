@@ -1,0 +1,79 @@
+{
+  "data" : {
+    "type" : "account",
+    "attributes" : {
+      "account-type" : "custodial",
+      "name" : "Big Blockchain Ltd Account",
+      "authorized-signature" : "Jill Jillian Johnson",
+      "owner" : {
+        "contact-type" : "company",
+        "name" : "Big Blockchain Ltd",
+        "email" : "support@bb.io",
+        "tax-id-number" : "123123123",
+        "tax-country" : "US",
+        "region-of-formation" : "DW",
+        "primary-phone-number" : {
+          "country" : "US",
+          "number" : "7026912022",
+          "sms" : false
+        },
+        "primary-address" : {
+          "street-1" : "330 S. Rampart",
+          "street-2" : "Suite 260",
+          "postal-code" : "89145",
+          "city" : "Las Vegas",
+          "region" : "NV",
+          "country" : "US"
+        },
+        "related-contacts" : [
+          {
+            "contact-type" : "natural_person",
+            "name" : "Jill Johnson",
+            "email" : "jill@bb.io",
+            "tax-id-number" : "123123123",
+            "tax-country" : "US",
+            "date-of-birth" : "1993-03-16",
+            "sex" : "female",
+            "label" : "CEO",
+            "primary-phone-number" : {
+              "country" : "US",
+              "number" : "7026912023",
+              "sms" : false
+            },
+            "primary-address" : {
+              "street-1" : "330 N. Rampart",
+              "street-2" : "Apt 270",
+              "postal-code" : "89145",
+              "city" : "Las Vegas",
+              "region" : "NV",
+              "country" : "US"
+            }
+          },
+          {
+            "contact-type" : "natural_person",
+            "name" : "James Johnson",
+            "email" : "james@bb.io",
+            "tax-id-number" : "123123123",
+            "tax-country" : "US",
+            "date-of-birth" : "1993-03-16",
+            "sex" : "male",
+            "label" : "COO",
+            "primary-phone-number" : {
+              "country" : "US",
+              "number" : "7026912024",
+              "sms" : false
+            },
+            "primary-address" : {
+              "street-1" : "330 N. Rampart",
+              "street-2" : "Apt 280",
+              "postal-code" : "89145",
+              "city" : "Las Vegas",
+              "region" : "NV",
+              "country" : "US"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

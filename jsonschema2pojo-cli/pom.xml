@@ -52,7 +52,7 @@
                         <manifest>
                             <classpathPrefix>./</classpathPrefix>
                             <addClasspath>true</addClasspath>
-                            <mainClass>org.jsonschema2pojo.cli.Jsonschema2PojoCLI</mainClass>
+                            <mainClass>org.jsonschema2pojo.cli.GenPrimeTrustObjs</mainClass>
                         </manifest>
                     </archive>
                 </configuration>

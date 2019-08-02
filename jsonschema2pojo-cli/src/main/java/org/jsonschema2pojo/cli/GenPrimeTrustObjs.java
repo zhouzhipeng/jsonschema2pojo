@@ -26,20 +26,19 @@ import org.jsonschema2pojo.Jsonschema2Pojo;
 /**
  * Main class, providing a command line interface for jsonschema2pojo.
  */
-public final class Jsonschema2PojoCLI {
+public final class GenPrimeTrustObjs {
 
-    private Jsonschema2PojoCLI() {
+    private GenPrimeTrustObjs() {
     }
 
     public static void genRequest() throws IOException {
 
-        for (File file : FileUtils.listFiles(new File("/Users/zhouzhipeng/IdeaProjects/jsonschema2pojo/jsonfiles/request/"), new String[]{"json"}, false)) {
-            
+        for (File file : FileUtils.listFiles(new File("/Users/zhouzhipeng/IdeaProjects/jsonschema2pojo/jsonfiles/primetrust/request/"), new String[]{"json"}, false)) {
             String[] args = new String[]{
                     "--source", file.getAbsolutePath(),
                     "--source-type", "json",
-                    "--target", "/Users/zhouzhipeng/IdeaProjects/bnb/fiat-payment/fiatpayment-integrations/primetrust-integration/src/main/java",
-                    "--package", "com.binance.fiatpayment.integration.primetrust.vo.request",
+                    "--target", "/Users/zhouzhipeng/IdeaProjects/bnb/fiat-payment/fiatpayment-integration-api/src/main/java",
+                    "--package", "com.binance.fiatpayment.vo.primetrust.request",
     //                "--use-inner-class-builders",
     //                "--remove-old-output",
                     "--omit-hashcode-and-equals",
@@ -61,13 +60,13 @@ public final class Jsonschema2PojoCLI {
 
     public static void genResponse() throws IOException {
 
-        for (File file : FileUtils.listFiles(new File("/Users/zhouzhipeng/IdeaProjects/jsonschema2pojo/jsonfiles/response/"), new String[]{"json"}, false)) {
+        for (File file : FileUtils.listFiles(new File("/Users/zhouzhipeng/IdeaProjects/jsonschema2pojo/jsonfiles/primetrust/response/"), new String[]{"json"}, false)) {
 
             String[] args = new String[]{
                     "--source", file.getAbsolutePath(),
                     "--source-type", "json",
-                    "--target", "/Users/zhouzhipeng/IdeaProjects/bnb/fiat-payment/fiatpayment-integrations/primetrust-integration/src/main/java",
-                    "--package", "com.binance.fiatpayment.integration.primetrust.vo.response",
+                    "--target", "/Users/zhouzhipeng/IdeaProjects/bnb/fiat-payment/fiatpayment-integration-api/src/main/java",
+                    "--package", "com.binance.fiatpayment.vo.primetrust.response",
 //                "--use-inner-class-builders",
 //                "--remove-old-output",
                     "--omit-hashcode-and-equals",
