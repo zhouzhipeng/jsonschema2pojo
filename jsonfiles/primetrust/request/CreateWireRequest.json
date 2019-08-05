@@ -6,16 +6,7 @@
       "bank-account-name" : "John James Doe",
       "bank-account-number" : "1234567890",
       "routing-number" : "123456789",
-      "contact-name" : "John Doe",
-      "contact-email" : "johndoe@gmail.com",
-      "beneficiary-address" : {
-        "street-1" : "123 MLK Drive",
-        "street-2" : "Apt 1234",
-        "city" : "Las Vegas",
-        "country" : "US",
-        "region" : "NV",
-        "postal-code" : "89145"
-      }
+      "contact-id" : "xxxxxx"
     }
   }
 }
